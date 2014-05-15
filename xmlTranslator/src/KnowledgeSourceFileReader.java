@@ -7,6 +7,7 @@ public abstract class KnowledgeSourceFileReader {
     protected String sourceFileType;
     protected Vector<String> metaByLine = new Vector<String>();
     protected Vector<String> sourceByLine = new Vector<String>();
+    protected Vector<MetaNode> metaNodes = new Vector<MetaNode>();
 
     public String getType(){
         return sourceFileType;
